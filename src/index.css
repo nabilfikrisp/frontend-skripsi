@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Paytone+One&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -51,9 +53,10 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border font-outfit;
   }
   body {
+    overflow-x: hidden;
     @apply bg-background text-foreground;
   }
 }
