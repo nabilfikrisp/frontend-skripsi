@@ -1,6 +1,6 @@
 const YogaPage = () => {
   return (
-    <article className="mx-auto mb-10 w-full max-w-[1280px] pt-10 leading-loose tracking-wide">
+    <article className="mx-auto mb-10 w-full max-w-[1280px] pt-10 leading-loose tracking-wide text-xl">
       <h1 className="font-paytone text-5xl">Pengenalan Gerakan Yoga</h1>
       <p className="mt-5">
         Asal kata <b>Yoga</b> berasal dari akar kata Sanskerta <b>yuj</b>, yang berarti penyatuan, atau mengikat, untuk bergabung, dan untuk mengarahkan serta
