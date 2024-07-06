@@ -58,11 +58,11 @@ const GNNPage = () => {
         </div>
         <div className="flex flex-col items-center gap-5 rounded border-2 border-input p-2">
           <img src="/gnn-image/graph2.2.jpg" alt="" className="h-[400px] rounded" />
-          <p>Visualisasi Node dan Node Features</p>
+          <p>Visualisasi Dua Node Pada Graf</p>
         </div>
         <div className="flex flex-col items-center gap-5 rounded border-2 border-input p-2">
           <img src="/gnn-image/graph2.3.jpg" alt="" className="h-[400px] rounded" />
-          <p>Visualisasi Node dan Node Features</p>
+          <p>Visualisasi Tiga Node Pada Graf</p>
         </div>
         <p>
           Node 65 memiliki sembilan tetangga dan salah satu tetangganya adalah node 63. Hal ini menandakan bahwa node 65 dan node 63 memiliki kedekatan nilai
