@@ -50,7 +50,7 @@ const HasilKlasifikasiPage = () => {
     return <Navigate to={ENDPOINTS_URL.KLASIFIKASI} />;
   }
 
-  const isBelowThreshold = state.data.probability < 0.5;
+  const isBelowThreshold = state.data.probability < 0.8;
 
   return (
     <section className="mx-auto my-auto flex w-full max-w-[800px] flex-grow flex-col justify-center gap-5 py-10">
