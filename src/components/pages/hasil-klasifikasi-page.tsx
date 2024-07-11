@@ -15,7 +15,7 @@ type StateSchema = {
 
 const displayPercent = (percent: number) => `${(percent * 100).toFixed(0)}%`;
 const colorPercent = (probability: number) => {
-  if (probability < 0.5) return "text-orange-600";
+  if (probability < 0.8) return "text-orange-600";
   if (probability < 0.25) return "text-red-600";
   return "text-primary";
 };

@@ -4,7 +4,7 @@ import * as ProgressPrimitive from "@radix-ui/react-progress";
 import { cn } from "@/lib/utils";
 
 const colorPercent = (probability: number) => {
-  if (probability < 50) return "bg-orange-600";
+  if (probability < 80) return "bg-orange-600";
   if (probability < 25) return "bg-red-600";
   return "bg-primary";
 };
