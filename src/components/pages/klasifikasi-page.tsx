@@ -4,10 +4,10 @@ import KlasifikasiForm from "../klasifikasi-form";
 
 const KlasifikasiPage = () => {
   return (
-    <section className="mx-auto my-auto flex w-full max-w-[1280px] flex-grow flex-col gap-5 px-5 sm:-px-0 py-10">
+    <section className="mx-auto my-auto flex w-full max-w-[1280px] flex-grow flex-col gap-2 xl:gap-5 px-5 sm:-px-0 py-10">
       <h1 className="text-center font-paytone text-5xl">Klasifikasi Gerakan Yoga</h1>
       <div className="mx-auto max-w-[800px] text-center text-lg hidden sm:block">
-        <p>Silahkan upload gambar gerakan yoga yang akan diklasifikasi.</p>
+        <p className="hidden xl:block">Silahkan upload gambar gerakan yoga yang akan diklasifikasi.</p>
         <p>
           Silahkan lihat halaman{" "}
           <span className="text-primary hover:underline">

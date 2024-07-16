@@ -1,6 +1,6 @@
 const GNNPage = () => {
   return (
-    <article className="mx-auto mb-10 w-full max-w-[1280px] px-5 pt-10 text-xl leading-relaxed tracking-wide sm:px-0 sm:leading-loose">
+    <article className="mx-auto mb-10 w-full max-w-[1280px] px-5 pt-10 text-xl leading-relaxed tracking-wide xl:px-0 sm:leading-loose">
       <h1 className="font-paytone text-5xl">Pengenalan Graph Neural Network</h1>
       <p className="mt-5">
         Pada permasalahan computer vision modern, CNN telah menjadi state-of-the-art dalam menyelesaikan masalah tersebut. Namun, beberapa tahun terakhir,{" "}
