@@ -1,15 +1,37 @@
 const YogaPage = () => {
   return (
-    <article className="mx-auto mb-10 w-full max-w-[1280px] pt-10 leading-loose tracking-wide text-xl">
+    <article className="mx-auto mb-10 w-full max-w-[1280px] px-5 pt-10 text-lg leading-relaxed tracking-wide sm:px-0 sm:text-xl sm:leading-loose">
       <h1 className="font-paytone text-5xl">Pengenalan Gerakan Yoga</h1>
       <p className="mt-5">
         Asal kata <b>Yoga</b> berasal dari akar kata Sanskerta <b>yuj</b>, yang berarti penyatuan, atau mengikat, untuk bergabung, dan untuk mengarahkan serta
         memusatkan perhatian seseorang. Yoga adalah suatu bentuk olahraga tubuh dan pikiran yang menggabungkan aktivitas otot dengan fokus pikiran yang tearah
-        pada kesadaran akan diri, pernapasan, dan energi. Berikut adalah 5 gerakan yoga yang dapat diklasifikias oleh sistem ini:
+        pada kesadaran akan diri, pernapasan, dan energi. 5 gerakan yang dapat diklasifikasi oleh sistem ini yaitu,{" "}
+        <a href="#downdog" className="font-semibold text-primary">
+          Downdog
+        </a>
+        ,{" "}
+        <a href="#goddess" className="font-semibold text-primary">
+          Goddess
+        </a>
+        ,{" "}
+        <a href="#plank" className="font-semibold text-primary">
+          Plank
+        </a>
+        ,{" "}
+        <a href="#tree" className="font-semibold text-primary">
+          Tree
+        </a>
+        ,{" "}
+        <a href="#warrior2" className="font-semibold text-primary">
+          Warrior 2
+        </a>
+        , Berikut adalah 5 gerakan yoga yang dapat diklasifikasi oleh sistem ini:
       </p>
-      <div className="mt-10 flex flex-col gap-5">
-        <h2 className="font-paytone text-3xl">1. Downdog / Downward Dog</h2>
-        <div className="flex gap-5">
+      <div className="mt-5 flex flex-col gap-5 sm:mt-10">
+        <h2 className="font-paytone text-2xl sm:text-3xl" id="downdog">
+          1. Downdog / Downward Dog
+        </h2>
+        <div className="flex flex-col-reverse gap-5 sm:flex-row">
           <div className="flex flex-col gap-5">
             <p>
               Downward Dog telah disebut sebagai salah satu pose yoga yang paling dikenal luas dan pose yoga yang esensial. Karena popularitasnya, pose ini
@@ -26,12 +48,14 @@ const YogaPage = () => {
               dengan mengarahkan mata siku atau bagian dalam siku ke depan.
             </p>
           </div>
-          <img src="/yoga-pose/downdog.png" alt="" className="h-[300px] w-[300px] bg-white" />
+          <img src="/yoga-pose/downdog.png" alt="" className="h-[300px] w-full bg-white sm:w-[300px]" />
         </div>
       </div>
-      <div className="mt-10 flex flex-col gap-5">
-        <h2 className="font-paytone text-3xl">2. Goddess</h2>
-        <div className="flex gap-5">
+      <div className="mt-5 flex flex-col gap-5 sm:mt-10">
+        <h2 className="font-paytone text-3xl" id="goddess">
+          2. Goddess
+        </h2>
+        <div className="flex flex-col-reverse gap-5 sm:flex-row">
           <div className="flex flex-col gap-5">
             <p>
               Goddess pose adalah jongkok berdiri lebar yang membuka pinggul dan dada sambil mengencangkan seluruh tubuh. Pose ini sangat disukai oleh
@@ -46,12 +70,14 @@ const YogaPage = () => {
               posisi doa. Untuk keluar dari pose, lepaskan tangan, luruskan kaki dan langkahkan atau lompatkan kaki bersama-sama, kembali ke posisi berdiri.
             </p>
           </div>
-          <img src="/yoga-pose/goddess.jpg" alt="" className="h-[300px] w-[300px] bg-white" />
+          <img src="/yoga-pose/goddess.jpg" alt="" className="h-[300px] w-full bg-white sm:w-[300px]" />
         </div>
       </div>
-      <div className="mt-10 flex flex-col gap-5">
-        <h2 className="font-paytone text-3xl">3. Plank</h2>
-        <div className="flex gap-5">
+      <div className="mt-5 flex flex-col gap-5 sm:mt-10">
+        <h2 className="font-paytone text-3xl" id="plank">
+          3. Plank
+        </h2>
+        <div className="flex flex-col-reverse gap-5 sm:flex-row">
           <div className="flex flex-col gap-5">
             <p>
               Pose Plank adalah pose yang dilakukan dengan lengan bawah rata di atas matras. Pose Plank bermanfaat untuk penguatan inti yang menantang, yang
@@ -64,12 +90,14 @@ const YogaPage = () => {
               rileks dan rentangkan kepala menjauh dari bahu. Pandangan mata tertuju pada matras.
             </p>
           </div>
-          <img src="/yoga-pose/plank.png" alt="" className="h-[300px] w-[300px] bg-white" />
+          <img src="/yoga-pose/plank.png" alt="" className="h-[300px] w-full bg-white sm:w-[300px]" />
         </div>
       </div>
-      <div className="mt-10 flex flex-col gap-5">
-        <h2 className="font-paytone text-3xl">4. Tree</h2>
-        <div className="flex gap-5">
+      <div className="mt-5 flex flex-col gap-5 sm:mt-10">
+        <h2 className="font-paytone text-3xl" id="tree">
+          4. Tree
+        </h2>
+        <div className="flex flex-col-reverse gap-5 sm:flex-row">
           <div className="flex flex-col gap-5">
             <p>
               Mulailah dengan berdiri dalam Mountain Pose. Kemudian, pindahkan seluruh berat badan ke kaki kiri dan tekuk lutut kanan. Dengan lutut yang
@@ -85,12 +113,14 @@ const YogaPage = () => {
               biseps di samping telinga, atau tangan dapat diletakkan di pinggul.
             </p>
           </div>
-          <img src="/yoga-pose/tree.jpg" alt="" className="h-[300px] w-[300px] bg-white" />
+          <img src="/yoga-pose/tree.jpg" alt="" className="h-[300px] w-full bg-white sm:w-[300px]" />
         </div>
       </div>
-      <div className="mt-10 flex flex-col gap-5">
-        <h2 className="font-paytone text-3xl">5. Warrior 2</h2>
-        <div className="flex gap-5">
+      <div className="mt-5 flex flex-col gap-5 sm:mt-10">
+        <h2 className="font-paytone text-3xl" id="warrior2">
+          5. Warrior 2
+        </h2>
+        <div className="flex flex-col-reverse gap-5 sm:flex-row">
           <div className="flex flex-col gap-5">
             <p>
               Dari Pose berdiri, langkahkan kaki kiri ke belakang sekitar 4 hingga 6 kaki. Putar kaki kiri pada sudut 30 hingga 50 derajat. Sejajarkan tumit
@@ -104,7 +134,7 @@ const YogaPage = () => {
               depan untuk bertemu dengan kaki depan. Akhiri dalam Mountain Pose.
             </p>
           </div>
-          <img src="/yoga-pose/warrior-2.jpg" alt="" className="h-[300px] w-[300px] bg-white" />
+          <img src="/yoga-pose/warrior-2.jpg" alt="" className="h-[300px] w-full bg-white sm:w-[300px]" />
         </div>
       </div>
     </article>

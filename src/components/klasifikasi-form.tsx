@@ -95,8 +95,8 @@ const KlasifikasiForm = () => {
             </FormItem>
           )}
         />
-        <div className="flex h-[400px] w-full items-center justify-center border border-input p-2 rounded-sm">
-          {preview ? <img src={preview} className="mx-auto max-h-[400px] h-full" /> : <div className="text-center text-gray-400">Preview Gambar</div>}
+        <div className="flex h-[300px] sm:h-[400px] w-full items-center justify-center border border-input p-2 rounded-sm">
+          {preview ? <img src={preview} className="mx-auto max-h-[300px] sm:max-h-[400px] h-full" /> : <div className="text-center text-gray-400">Preview Gambar</div>}
         </div>
 
         <Button type="submit" isLoading={isPostPending} loadingText="Submitting...">

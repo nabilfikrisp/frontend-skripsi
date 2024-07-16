@@ -55,6 +55,9 @@
   * {
     @apply border-border font-outfit;
   }
+  html {
+    @apply scroll-smooth;
+  }
   body {
     overflow-x: hidden;
     @apply bg-background text-foreground;

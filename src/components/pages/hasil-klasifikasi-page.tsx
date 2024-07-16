@@ -53,10 +53,10 @@ const HasilKlasifikasiPage = () => {
   const isBelowThreshold = state.data.probability < 0.8;
 
   return (
-    <section className="mx-auto my-auto flex w-full max-w-[800px] flex-grow flex-col justify-center gap-5 py-10">
+    <section className="mx-auto my-auto flex w-full max-w-[800px] flex-grow flex-col justify-center gap-5 px-5 py-10 sm:px-0">
       <h2 className="font-paytone text-4xl">Input Gambar</h2>
-      <div className="flex h-[400px] w-full justify-center border-2 border-slate-500 p-2">
-        <img src={state.previewUrl} alt="gambar input pengguna" className="max-h-[400px]" />
+      <div className="flex h-[300px] w-full justify-center border-2 border-slate-500 p-2 sm:h-[400px]">
+        <img src={state.previewUrl} alt="gambar input pengguna" className="max-h-[300px] sm:max-h-[400px]" />
       </div>
       <h2 className="mt-2 font-paytone text-4xl">Hasil Klasifikasi</h2>
       <div>
@@ -91,10 +91,14 @@ const HasilKlasifikasiPage = () => {
             </p>
           </div>
           <h2 className="mt-2 font-paytone text-4xl">
-            Contoh gambar gerakan <span className="font-semibold font-paytone capitalize text-primary">{state.data.className}</span>
+            Contoh gambar gerakan <span className="font-paytone font-semibold capitalize text-primary">{state.data.className}</span>
           </h2>
-          <div className="flex h-[400px] w-full border-2 border-slate-500 p-2">
-            <img src={renderImageExample[state.data.className as YogaPoseString]} alt="saran gambar gerakan yoga" className="mx-auto max-h-[400px]" />
+          <div className="flex h-[300px] w-full border-2 border-slate-500 p-2 sm:h-[400px]">
+            <img
+              src={renderImageExample[state.data.className as YogaPoseString]}
+              alt="saran gambar gerakan yoga"
+              className="mx-auto max-h-[300px] sm:max-h-[400px]"
+            />
           </div>
         </>
       )}
